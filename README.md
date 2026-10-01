@@ -14,3 +14,5 @@ The page includes the completed A0 research poster and the supplied RGB–therma
 Preview with `python3 -m http.server 8765` from this directory, then open http://localhost:8765/ . All asset links are relative and work under the `/pro-vio/` GitHub Pages path. GitHub Pages publishes this repository's main branch.
 
 The recording is a separate demonstration; the poster's reported benchmarks and recorded optimization trace retain their original provenance. `media-provenance.json` records source hashes, the trim/encode settings and the exact poster PDF hash.
+
+The current poster adds larger red vector dots in Inside one solve: direct patch optical-flow detections on the corridor images (RGB 60, thermal 38; cap 60 for each; radius 1.1 mm). Both images use the patch detector. Section 1 and all scientific measurements remain unchanged. These per-image detections are illustrative context, separate from the archived optimizer trace.

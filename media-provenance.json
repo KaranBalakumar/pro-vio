@@ -88,7 +88,7 @@
   },
   "poster": {
     "file": "assets/poster/mso_poster.pdf",
-    "sha256": "bbd7ced556ebcd0389578bcfacff7f9d3938de297580704d9675cac418ac1c7f",
+    "sha256": "452ed0fc309c7426c468cd4472c28736fdfa484d9667efe980a1bcfa6471ceb0",
     "source_filename": "output/pdf/mso-poster-scholarly/mso_poster.pdf",
     "qr_payload": "https://karanbalakumar.github.io/pro-vio/",
     "qr_caption": "Website & video",
@@ -102,7 +102,22 @@
       10
     ],
     "source_trace_states_retained": 26,
-    "scientific_measurements_unchanged": true
+    "scientific_measurements_unchanged": true,
+    "corridor_feature_dots": {
+      "section": "Inside one solve only",
+      "detector": "MSO patch optical-flow feature detector for both images",
+      "counts": {
+        "rgb": 60,
+        "thermal": 38
+      },
+      "max_features_per_camera": 60,
+      "dot_radius_mm": 1.1,
+      "native_vector_dots": true,
+      "is_temporal_tracking": false,
+      "is_plotted_solve_observation_set": false,
+      "section1_unchanged": true,
+      "scientific_measurements_unchanged": true
+    }
   },
   "fonts": {
     "family": "Google Sans",
