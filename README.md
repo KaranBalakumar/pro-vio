@@ -2,12 +2,12 @@
 
 Static project page: https://karanbalakumar.github.io/pro-vio/
 
-The page includes the completed A0 research poster and the first four minutes of the supplied RGB–thermal SubT screencast. Google Sans and the red/white palette match the poster. All fonts and media are served locally; no third-party embeds are required.
+The page includes the completed A0 research poster and the supplied RGB–thermal SubT screencast from 0:01 to 4:00 (3:59 total). Google Sans and the red/white palette match the poster. The M, S and O initials are black in the website title. All fonts and media are served locally; no third-party embeds are required.
 
 - `index.html` and `assets/site.css`: responsive project page.
-- `assets/video/run_12_rgb_thermal_4min.mp4`: 1920 × 1080 H.264 video, trimmed to 240 seconds with the MP4 index at the start for streaming.
+- `assets/video/run_12_rgb_thermal_001_400.mp4`: 1920 × 1080 H.264 video, trimmed to 239 seconds with the MP4 index at the start for streaming.
 - `assets/video/preview.jpg`: a frame extracted from the source recording.
-- `assets/poster/mso_poster.pdf`: the completed poster, including a QR code to this page.
+- `assets/poster/mso_poster.pdf`: the completed poster, including a large upper-right QR code that opens this page.
 - `assets/poster/mso_poster_preview.png`: poster preview used on mobile and for link sharing.
 - `assets/fonts/`: locally bundled Google Sans webfonts and OFL license.
 

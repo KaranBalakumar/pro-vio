@@ -22,8 +22,8 @@
         "size": "116193410"
       }
     },
-    "web_file": "assets/video/run_12_rgb_thermal_4min.mp4",
-    "web_sha256": "8520dbc4f5f0cd94c1e0d76e9d2c4e0dcecc2163b939ca5dd147ac6d254a8c42",
+    "web_file": "assets/video/run_12_rgb_thermal_001_400.mp4",
+    "web_sha256": "f8dce1a8f137e915ccec2aac3dd7359cf5c0da33688146e03a76cc522600ba4a",
     "web_metadata": {
       "programs": [],
       "streams": [
@@ -33,17 +33,18 @@
           "height": 1080,
           "pix_fmt": "yuv420p",
           "avg_frame_rate": "30/1",
-          "nb_frames": "7200"
+          "nb_frames": "7170"
         }
       ],
       "format": {
-        "duration": "240.000000",
-        "size": "80581089"
+        "duration": "239.000000",
+        "size": "80262836"
       }
     },
     "trim_seconds": {
-      "start": 0,
-      "end": 240
+      "start": 1,
+      "end": 240,
+      "output_duration": 239
     },
     "encoding": {
       "video_codec": "H.264 (libx264)",
@@ -66,32 +67,42 @@
       {
         "type": "moov",
         "offset": 32,
-        "bytes": 87495
+        "bytes": 87283
       },
       {
         "type": "free",
-        "offset": 87527,
+        "offset": 87315,
         "bytes": 8
       },
       {
         "type": "mdat",
-        "offset": 87535,
-        "bytes": 80493554
+        "offset": 87323,
+        "bytes": 80175513
       }
     ],
     "thumbnail": "assets/video/preview.jpg",
     "thumbnail_source_time_seconds": 12,
     "source_recording_preserved": true,
-    "scientific_use": "Separate SubT demonstration. Not asserted to be the source of the poster benchmark measurements or the specific recorded optimization window."
+    "scientific_use": "Separate SubT demonstration. Not asserted to be the source of the poster benchmark measurements or the specific recorded optimization window.",
+    "seek_method": "Sequential decode from source start; discard the first second after decoding. Input-side seeking is avoided because the VLC-exported source has a faulty seek index."
   },
   "poster": {
     "file": "assets/poster/mso_poster.pdf",
-    "sha256": "57cecbe58e86b603e578e38c649a2a3bc4dfeda9b488a049cf8775b78416f1e7",
+    "sha256": "bbd7ced556ebcd0389578bcfacff7f9d3938de297580704d9675cac418ac1c7f",
     "source_filename": "output/pdf/mso-poster-scholarly/mso_poster.pdf",
     "qr_payload": "https://karanbalakumar.github.io/pro-vio/",
-    "qr_caption": "Project page",
+    "qr_caption": "Website & video",
     "preview": "assets/poster/mso_poster_preview.png",
-    "previous_poster_scientific_content_unchanged": true
+    "previous_poster_scientific_content_unchanged": true,
+    "qr_location": "Upper-right title banner",
+    "qr_size_mm": 60,
+    "qr_clickable": true,
+    "displayed_optimizer_updates": [
+      0,
+      10
+    ],
+    "source_trace_states_retained": 26,
+    "scientific_measurements_unchanged": true
   },
   "fonts": {
     "family": "Google Sans",
