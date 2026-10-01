@@ -1,0 +1,191 @@
+{
+  "project_title": "Uncertainty-Aware Multi-Spectral Inertial Odometry for Extreme Environments",
+  "project_url": "https://karanbalakumar.github.io/pro-vio/",
+  "prepared_date": "2026-10-01",
+  "video": {
+    "source_filename": "run_12_rgb_thermal.mp4",
+    "source_sha256": "cae0d61c2287f448917fdea83ef46878a9f1deabcd34e1afa0091ccbf8ffcbd9",
+    "source_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "7124000/262947",
+          "nb_frames": "7124"
+        }
+      ],
+      "format": {
+        "duration": "262.947000",
+        "size": "116193410"
+      }
+    },
+    "web_file": "assets/video/run_12_rgb_thermal_4min.mp4",
+    "web_sha256": "8520dbc4f5f0cd94c1e0d76e9d2c4e0dcecc2163b939ca5dd147ac6d254a8c42",
+    "web_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_frames": "7200"
+        }
+      ],
+      "format": {
+        "duration": "240.000000",
+        "size": "80581089"
+      }
+    },
+    "trim_seconds": {
+      "start": 0,
+      "end": 240
+    },
+    "encoding": {
+      "video_codec": "H.264 (libx264)",
+      "resolution": "1920x1080",
+      "frame_rate": 30,
+      "pixel_format": "yuv420p",
+      "preset": "medium",
+      "crf": 23,
+      "maxrate_kbps": 2800,
+      "bufsize_kbits": 5600,
+      "audio": "Source has no audio stream",
+      "faststart": true
+    },
+    "mp4_boxes": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "bytes": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "bytes": 87495
+      },
+      {
+        "type": "free",
+        "offset": 87527,
+        "bytes": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 87535,
+        "bytes": 80493554
+      }
+    ],
+    "thumbnail": "assets/video/preview.jpg",
+    "thumbnail_source_time_seconds": 12,
+    "source_recording_preserved": true,
+    "scientific_use": "Separate SubT demonstration. Not asserted to be the source of the poster benchmark measurements or the specific recorded optimization window."
+  },
+  "poster": {
+    "file": "assets/poster/mso_poster.pdf",
+    "sha256": "57cecbe58e86b603e578e38c649a2a3bc4dfeda9b488a049cf8775b78416f1e7",
+    "source_filename": "output/pdf/mso-poster-scholarly/mso_poster.pdf",
+    "qr_payload": "https://karanbalakumar.github.io/pro-vio/",
+    "qr_caption": "Project page",
+    "preview": "assets/poster/mso_poster_preview.png",
+    "previous_poster_scientific_content_unchanged": true
+  },
+  "fonts": {
+    "family": "Google Sans",
+    "weights": [
+      400,
+      700
+    ],
+    "web_files": [
+      "assets/fonts/GoogleSans-Regular.woff2",
+      "assets/fonts/GoogleSans-Bold.woff2"
+    ],
+    "license": "assets/fonts/OFL.txt",
+    "source_record": {
+      "family": "Google Sans",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/GoogleSans%5BGRAD%2Copsz%2Cwght%5D.ttf",
+      "source_sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+      "axes": {
+        "opsz": [
+          17.0,
+          18.0,
+          18.0
+        ],
+        "wght": [
+          400.0,
+          400.0,
+          700.0
+        ],
+        "GRAD": [
+          -50.0,
+          0.0,
+          200.0
+        ]
+      },
+      "website": "https://superodometry.com/supermap",
+      "website_font_family": "'Google Sans', 'Noto Sans', sans-serif",
+      "website_title_css_weight": 800,
+      "note": "Website requests weight 800 but imports Google Sans regular only. Poster uses a true 700 weight instance of the same family.",
+      "instances": [
+        {
+          "filename": "GoogleSans-Regular.ttf",
+          "weight": 400,
+          "italic": false,
+          "axes": {
+            "wght": 400,
+            "opsz": 18,
+            "GRAD": 0
+          },
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/GoogleSans%5BGRAD%2Copsz%2Cwght%5D.ttf",
+          "source_sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+          "font_sha256": "205aca48ac69c6e4ec8106de4b41cdd48c001c8b22e07733b4c1cf14a8bc89b1"
+        },
+        {
+          "filename": "GoogleSans-Bold.ttf",
+          "weight": 700,
+          "italic": false,
+          "axes": {
+            "wght": 700,
+            "opsz": 18,
+            "GRAD": 0
+          },
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/GoogleSans%5BGRAD%2Copsz%2Cwght%5D.ttf",
+          "source_sha256": "d0a87d835a944b8b40d0e82a5651bb59ab97b936a2aeed5946eb57e7b2a3a90a",
+          "font_sha256": "0653da088e676fadfe210b920fb75071226a6b645c1adc8fbd17b3f3d529d8b2"
+        },
+        {
+          "filename": "GoogleSans-Italic.ttf",
+          "weight": 400,
+          "italic": true,
+          "axes": {
+            "wght": 400,
+            "opsz": 18,
+            "GRAD": 0
+          },
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/GoogleSans-Italic%5BGRAD%2Copsz%2Cwght%5D.ttf",
+          "source_sha256": "b6662abd2131cad1b248750149a7f2b644f871ebcc9af7fe4cd1135cd290b6d1",
+          "font_sha256": "66350f524e8d313b23d77b90293b4ad22c8ea90bf0712960f72e1b433b8796b1"
+        },
+        {
+          "filename": "GoogleSans-BoldItalic.ttf",
+          "weight": 700,
+          "italic": true,
+          "axes": {
+            "wght": 700,
+            "opsz": 18,
+            "GRAD": 0
+          },
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/GoogleSans-Italic%5BGRAD%2Copsz%2Cwght%5D.ttf",
+          "source_sha256": "b6662abd2131cad1b248750149a7f2b644f871ebcc9af7fe4cd1135cd290b6d1",
+          "font_sha256": "f68fc42210c19e5ca55106907c75396be848c3a6c4dd1a6fc93414a0a4377f5f"
+        }
+      ],
+      "usage": "Google Sans for title, authors, section headings and all authored prose/labels. NewTX math remains for scientific notation. Original wildfire artwork preserves its source typography.",
+      "static_naming": "Static instances have distinct Regular/Bold/Italic/BoldItalic names and matching weight/style metadata."
+    },
+    "processing": "WOFF2 Latin subset of the same bundled poster fonts."
+  }
+}
